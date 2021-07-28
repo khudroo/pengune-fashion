@@ -1,0 +1,52 @@
+
+img{
+    max-width: 100%;
+}
+.penguine-btn{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-image: linear-gradient(#dc2cdc, purple);
+    border-radius: 7px;
+}
+.penguine-btn:hover{
+    color: white;
+}
+.bg-color{
+    background-color: #fffbf0;;
+}
+
+.banner-pos{
+    margin-top: 155px;
+}
+svg {
+    width: 25px;
+}
+
+.jacket img {
+    width: 369px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.content {
+    margin-left: 30px;
+}
+.images img {
+    width: 100px;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px){
+    .banner-pos{
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 20px;
+    } 
+}
+    
